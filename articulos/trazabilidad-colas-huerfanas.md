@@ -38,7 +38,7 @@ Este texto no trata de la avería, sino de lo que revela: un sistema cuya integr
 | Creación o modificación de resultados | Integridad | Piezas defectuosas dadas por buenas | El sistema "funciona" y no hay alarma |
 | Borrado de registros históricos | Integridad y trazabilidad | Imposible reconstruir qué se fabricó | Se descubre en una reclamación o auditoría |
 
-En OT el orden de prioridades suele ser disponibilidad, integridad y confidencialidad, al revés que en IT. Aquí el escenario más grave no es el de la línea parada, sino el segundo: una pieza mala que pasa como buena no genera ninguna alarma.
+En OT el orden de prioridades suele ser disponibilidad, integridad y confidencialidad, al revés que en IT. El segundo escenario es el más difícil de detectar: una pieza mala que el sistema registra como buena no tiene por qué generar ninguna alarma.
 
 ## Correspondencia con MITRE ATT&CK for ICS
 
